@@ -6,5 +6,5 @@ build:
 
 run:
 	@make build
-	@build/raytrace > image.ppm
+	@build/raytrace > build/image.ppm
 
