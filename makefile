@@ -2,7 +2,7 @@
 
 build:
 	@mkdir -p build
-	@g++ main.cpp -o build/raytrace
+	@g++ main.cpp --std=c++17 -o build/raytrace
 
 run:
 	@make build

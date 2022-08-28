@@ -17,7 +17,7 @@ int main() {
     const int image_height = static_cast<int>(image_width / aspect_ratio);
 
     // Camera
-        auto viewport_height = 2.0;
+    auto viewport_height = 2.0;
     auto viewport_width = aspect_ratio * viewport_height;
     auto focal_length = 1.0;
 
